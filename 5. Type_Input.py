@@ -36,3 +36,28 @@ b = int(input("Enter number 2: "))
 print("Number a is: ", a)
 print("Number b is: ", b)
 print("Sum is ", a + b)
+
+
+name = input("pls entered yourt name ")
+print(f"Good afternoon {name} ")
+
+
+# letter = input("pls enter a name ")
+# date = input("pls enter date")
+# print(
+#     f"""
+#  Dear {letter},
+#  Your are selected . 
+#  {date}  """
+# )
+
+
+letter = '''Dear <|Name|>, 
+You are selected! 
+<|Date|> '''
+
+print(letter.replace("<|Name|>", "Harry").replace("<|Date|", "24 September 2050")) 
+
+name = "Harry is a good  boy and  "
+
+print(name.find("  "))
